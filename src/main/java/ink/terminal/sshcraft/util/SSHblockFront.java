@@ -1,6 +1,5 @@
-package ink.terminal.sshcraft.blocks;
+package ink.terminal.sshcraft.util;
 
-import ink.terminal.sshcraft.util.SSHblock;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockStateContainer;
@@ -11,15 +10,14 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class BlockConsole extends SSHblock {
+public class SSHblockFront extends SSHblock {
   public static final PropertyDirection FACING = PropertyDirection.create("facing");
-
-  public BlockConsole() {
-    super("console", Material.ROCK);
-
+  
+  public SSHblockFront(String szName, Material blockMaterial) {
+    super(szName, blockMaterial);
     setDefaultState(blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
   }
-
+  
   @Override
   public void onBlockPlacedBy(World world, BlockPos pos, IBlockState state, EntityLivingBase placer, ItemStack stack) {
     world.setBlockState(pos, state.withProperty(FACING, getFacingFromEntity(pos, placer)), 2);
