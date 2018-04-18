@@ -20,7 +20,7 @@ public class ModItems {
   public static final CreativeTabs tab = new CreativeTabs(Configuration.MODID) {
     @Override
     public ItemStack getTabIconItem() {
-      return new ItemStack(ModItems.itemCheese, 1, 1);
+      return new ItemStack(ModItems.itemCheese, 1, 0);
     }
   };
 }
