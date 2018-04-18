@@ -1,6 +1,6 @@
-package com.moustacheminer.sshcraft.blocks;
+package ink.terminal.sshcraft.blocks;
 
-import com.moustacheminer.sshcraft.Configuration;
+import ink.terminal.sshcraft.Configuration;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

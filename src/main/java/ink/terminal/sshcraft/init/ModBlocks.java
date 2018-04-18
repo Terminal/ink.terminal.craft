@@ -1,7 +1,7 @@
-package com.moustacheminer.sshcraft.init;
+package ink.terminal.sshcraft.init;
 
-import com.moustacheminer.sshcraft.Configuration;
-import com.moustacheminer.sshcraft.blocks.BlockConsole;
+import ink.terminal.sshcraft.Configuration;
+import ink.terminal.sshcraft.blocks.BlockConsole;
 
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;

@@ -1,7 +1,7 @@
-package com.moustacheminer.sshcraft.proxy;
+package ink.terminal.sshcraft.proxy;
 
-import com.moustacheminer.sshcraft.init.ModBlocks;
-import com.moustacheminer.sshcraft.init.ModItems;
+import ink.terminal.sshcraft.init.ModBlocks;
+import ink.terminal.sshcraft.init.ModItems;
 
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod;

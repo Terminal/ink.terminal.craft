@@ -1,6 +1,6 @@
-package com.moustacheminer.sshcraft.items;
+package ink.terminal.sshcraft.items;
 
-import com.moustacheminer.sshcraft.Configuration;
+import ink.terminal.sshcraft.Configuration;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;

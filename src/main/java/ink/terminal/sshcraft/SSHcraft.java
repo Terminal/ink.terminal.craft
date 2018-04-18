@@ -1,6 +1,6 @@
-package com.moustacheminer.sshcraft;
+package ink.terminal.sshcraft;
 
-import com.moustacheminer.sshcraft.proxy.CommonProxy;
+import ink.terminal.sshcraft.proxy.CommonProxy;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;

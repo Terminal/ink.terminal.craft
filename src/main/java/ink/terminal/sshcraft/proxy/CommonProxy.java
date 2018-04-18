@@ -1,8 +1,8 @@
-package com.moustacheminer.sshcraft.proxy;
+package ink.terminal.sshcraft.proxy;
 
-import com.moustacheminer.sshcraft.blocks.BlockConsole;
-import com.moustacheminer.sshcraft.init.ModBlocks;
-import com.moustacheminer.sshcraft.items.ItemCheese;
+import ink.terminal.sshcraft.blocks.BlockConsole;
+import ink.terminal.sshcraft.init.ModBlocks;
+import ink.terminal.sshcraft.items.ItemCheese;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
