@@ -13,6 +13,6 @@ public class ModBlocks {
   
   @SideOnly(Side.CLIENT)
   public static void initModels() {
-    // TODO: Add blocks
+    blockConsole.initModel();
   }
 }
