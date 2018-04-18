@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "sshcraft:console"
+  },
+  "pattern": [
+    "ddd",
+    "drd",
+    "ddd"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "d": {
+      "item": "minecraft:dirt",
+      "data": 0
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  }
+}

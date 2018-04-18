@@ -1,6 +1,11 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "sshcraft:blocks/console"
+    "down": "sshcraft:blocks/console_side",
+    "up": "sshcraft:blocks/console_side",
+    "east": "sshcraft:blocks/console_side",
+    "west": "sshcraft:blocks/console_side",
+    "north": "sshcraft:blocks/console_front",
+    "south": "sshcraft:blocks/console_side"
   }
 }
