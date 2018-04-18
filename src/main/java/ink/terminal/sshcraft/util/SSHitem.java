@@ -1,6 +1,7 @@
 package ink.terminal.sshcraft.util;
 
 import ink.terminal.sshcraft.Configuration;
+import ink.terminal.sshcraft.init.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
@@ -12,6 +13,7 @@ public class SSHitem extends Item {
     super();
     setRegistryName(szName);
     setUnlocalizedName(Configuration.MODID + "." + szName);
+    setCreativeTab(ModItems.tab);
   }
   
   @SideOnly(Side.CLIENT)

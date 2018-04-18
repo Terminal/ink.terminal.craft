@@ -1,6 +1,7 @@
 package ink.terminal.sshcraft.util;
 
 import ink.terminal.sshcraft.Configuration;
+import ink.terminal.sshcraft.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -14,6 +15,7 @@ public class SSHblock extends Block {
     super(blockMaterial);
     setRegistryName(szName);
     setUnlocalizedName(Configuration.MODID + "." + szName);
+    setCreativeTab(ModItems.tab);
   }
   
   @SideOnly(Side.CLIENT)
