@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "sshcraft",
+    "name": "SSHcraft",
+    "description": "SSH in Minecraft",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://moustacheminer.com/",
+    "updateUrl": "",
+    "authorList": [
+      "7coil",
+      "Moustacheminer Server Services"
+    ],
+    "credits": "Copyright Moustacheminer Server Services, 2015 - 2018",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
