@@ -7,27 +7,4 @@ public class Configuration {
 
   public static final String CLIENT_PROXY_CLASS = "ink.terminal.sshcraft.proxy.ClientProxy";
   public static final String SERVER_PROXY_CLASS = "ink.terminal.sshcraft.proxy.ServerProxy";
-
-  public static enum sshItems {
-    CHEESE("cheese", "ItemCheese"),
-    CONSOLE("console", "BlockConsole");
-
-    private String unlocalizedName;
-    private String registryName;
-
-    sshItems(String unlocalizedName, String registryName) {
-      this.unlocalizedName = Configuration.MODID + "." + unlocalizedName;
-      this.registryName = registryName;
-    }
-
-    public String getRegistryName() {
-      return registryName;
-    }
-
-    public String getUnlocalizedName() {
-      return unlocalizedName;
-    }
-  }
-  
-  
 }

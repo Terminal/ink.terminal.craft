@@ -1,14 +1,10 @@
 package ink.terminal.sshcraft.blocks;
 
-import ink.terminal.sshcraft.Configuration;
-
-import net.minecraft.block.Block;
+import ink.terminal.sshcraft.util.SSHblock;
 import net.minecraft.block.material.Material;
 
-public class BlockConsole extends Block {
+public class BlockConsole extends SSHblock {
   public BlockConsole() {
-    super(Material.ROCK);
-    setUnlocalizedName(Configuration.sshItems.CONSOLE.getUnlocalizedName());
-    setRegistryName(Configuration.sshItems.CONSOLE.getRegistryName());
+    super("console", Material.ROCK);
   }
 }
